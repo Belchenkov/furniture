@@ -100,6 +100,17 @@ body {
   min-height: calc(100vh - 101px);
 }
 
+/* service section */
+.service-icon {
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--mainYellow);
+  background: var(--mainGrey);
+  padding: .5rem 1rem;
+  border-radius: 50%;
+}
+
 /* featured section */
 .featured-container {
   background: var(--TransGrey);
