@@ -33,7 +33,26 @@ body {
   color: var(--mainYellow);
 }
 
+.banner-products,
+.banner-single-product,
+.banner-store {
+  min-height: 60vh;
+  background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)),
+            url("../img/pageBcg/productsBcg.jpeg") no-repeat center/cover fixed;
+}
+
+.banner-single-product {
+  background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)),
+            url("../img/pageBcg/singleBcg.jpeg") no-repeat center/cover fixed;
+}
+
+.banner-store {
+  background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)),
+            url("../img/pageBcg/storeBcg.jpeg") no-repeat center/cover fixed;
+}
+
 /* ################# Home Page ################# */
+
 /* navbar */
 .navbar-toggler {
   outline: none!important;
@@ -179,3 +198,5 @@ body {
 .footer-icon:hover {
   color: var(--mainWhite);
 }
+
+/* ################# Products Page ################# */
