@@ -16,6 +16,10 @@ body {
   font-family: "Calligraffitti", cursive;
 }
 
+.text-yellow {
+  color: var(--mainYellow);
+}
+
 .btn-yellow {
   background: var(--mainYellow);
   text-transform: capitalize;
@@ -156,4 +160,22 @@ body {
 .skill-icon {
   color: var(--mainYellow);
   font-size: 2rem;
+}
+
+/* footer */
+.footer {
+  background: rgba(0, 0, 0, .8);
+}
+
+.footer-title {
+  border: .2rem solid var(--mainYellow);
+  padding: .4rem;
+}
+
+.footer-icon {
+  color: var(--mainYellow);
+}
+
+.footer-icon:hover {
+  color: var(--mainWhite);
 }
