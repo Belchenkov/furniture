@@ -286,3 +286,43 @@ body {
 }
 
 /* ################# Products Page ################# */
+.products-categories-underline {
+    height: .2rem;
+    width: 5rem;
+    background: var(--mainYellow);
+}
+
+.products-categories-link {
+    color: var(--mainBlack);
+    text-decoration: none;
+}
+
+.products-categories-link:hover {
+    color: var(--mainGrey);
+    text-decoration: none;
+}
+
+.products-color {
+    width: 1rem;
+    height: 1rem;
+}
+
+.products-color-black {
+    background: #000;
+}
+
+.products-color-red {
+    background: red;
+}
+
+.products-color-blue {
+    background: blue;
+}
+
+.products-color-yellow {
+    background: yellow;
+}
+
+.products-color-green {
+    background: green;
+}
