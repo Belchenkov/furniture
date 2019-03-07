@@ -33,6 +33,20 @@ body {
   color: var(--mainYellow);
 }
 
+.btn-black {
+    background: transparent;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    color: var(--mainBlack);
+    border-radius: 0!important;
+    border: .1rem solid var(--mainBlack);
+}
+
+.btn-black:hover {
+    background: var(--mainBlack);
+    color: var(--mainWhite);
+}
+
 .banner-products,
 .banner-single-product,
 .banner-store {
