@@ -361,5 +361,14 @@ body {
 .rating-icon {
     color: var(--mainYellow);
 }
+
+.product-info-link {
+    color: var(--mainGrey);
+    text-decoration: none!important;
+}
+
+.product-info-link:hover {
+    color: var(--mainYellow);
+}
 /* ################# End of Single Product Page ########### */
 
