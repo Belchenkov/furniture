@@ -33,6 +33,20 @@ body {
   color: var(--mainYellow);
 }
 
+.btn-black {
+    background: transparent;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    color: var(--mainBlack);
+    border-radius: 0!important;
+    border: .1rem solid var(--mainBlack);
+}
+
+.btn-black:hover {
+    background: var(--mainBlack);
+    color: var(--mainWhite);
+}
+
 .banner-products,
 .banner-single-product,
 .banner-store {
@@ -109,6 +123,81 @@ body {
   background: var(--mainGrey);
   padding: .5rem 1rem;
   border-radius: 50%;
+}
+
+/* categories section */
+.categories-link {
+  color: var(--mainBlack);
+  text-decoration: none;
+}
+
+.categories-link:hover {
+  color: var(--mainGrey);
+  text-decoration: none;
+}
+
+.categories-underline {
+  height: .2rem;
+  width: 5rem;
+  background: var(--mainYellow);
+}
+
+.category-container {
+  position: relative;
+}
+
+.category-img {
+  transition: all 1s linear;
+}
+
+.category-container:hover .category-img {
+  opacity: .5;
+}
+
+.category-container:hover .category-link {
+  opacity: 1;
+}
+
+.category-link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: .2rem 3rem .2rem .2rem;
+  background: var(--mainWhite);
+  color: var(--mainBlack);
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
+  opacity: 0;
+  transition: all 1s linear;
+  text-decoration: none;
+}
+
+.category-link:hover {
+  text-decoration: none;
+  color: var(--mainGrey);
+}
+
+/* home filler */
+.home-filler {
+  min-height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+    url("../img/home-filler.jpeg") no-repeat center/cover fixed;
+}
+
+.collection-link {
+  color: var(--mainYellow);
+  text-decoration: none;
+}
+
+.collection-link:hover {
+  text-decoration: none;
+  color: var(--mainGrey);
+}
+
+.collection-underline {
+  height: .1rem;
+  width: 5rem;
+  background: var(--mainYellow);
+  margin: 0 auto;
 }
 
 /* featured section */
@@ -209,5 +298,77 @@ body {
 .footer-icon:hover {
   color: var(--mainWhite);
 }
+/* ################# End of Home Page ################# */
 
 /* ################# Products Page ################# */
+.products-categories-underline {
+    height: .2rem;
+    width: 5rem;
+    background: var(--mainYellow);
+}
+
+.products-categories-link {
+    color: var(--mainBlack);
+    text-decoration: none;
+}
+
+.products-categories-link:hover {
+    color: var(--mainGrey);
+    text-decoration: none;
+}
+
+.products-color {
+    width: 1rem;
+    height: 1rem;
+}
+
+.products-color-black {
+    background: #000;
+}
+
+.products-color-red {
+    background: red;
+}
+
+.products-color-blue {
+    background: blue;
+}
+
+.products-color-yellow {
+    background: yellow;
+}
+
+.products-color-green {
+    background: green;
+}
+/* ################# End of Products Page ################# */
+
+/* ################# Single Product Page ################# */
+.single-product-photo {
+    background: var(--TransGrey);
+    opacity: .5;
+    transition: all .3s linear;
+    cursor: pointer;
+    border: .1rem solid transparent;
+    box-sizing: border-box!important;
+}
+
+.single-product-photo:hover {
+    border-color: var(--mainYellow);
+    opacity: 1;
+}
+
+.rating-icon {
+    color: var(--mainYellow);
+}
+
+.product-info-link {
+    color: var(--mainGrey);
+    text-decoration: none!important;
+}
+
+.product-info-link:hover {
+    color: var(--mainYellow);
+}
+/* ################# End of Single Product Page ########### */
+
