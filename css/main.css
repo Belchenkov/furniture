@@ -298,6 +298,7 @@ body {
 .footer-icon:hover {
   color: var(--mainWhite);
 }
+/* ################# End of Home Page ################# */
 
 /* ################# Products Page ################# */
 .products-categories-underline {
@@ -340,3 +341,25 @@ body {
 .products-color-green {
     background: green;
 }
+/* ################# End of Products Page ################# */
+
+/* ################# Single Product Page ################# */
+.single-product-photo {
+    background: var(--TransGrey);
+    opacity: .5;
+    transition: all .3s linear;
+    cursor: pointer;
+    border: .1rem solid transparent;
+    box-sizing: border-box!important;
+}
+
+.single-product-photo:hover {
+    border-color: var(--mainYellow);
+    opacity: 1;
+}
+
+.rating-icon {
+    color: var(--mainYellow);
+}
+/* ################# End of Single Product Page ########### */
+
